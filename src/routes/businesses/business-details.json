@@ -1,0 +1,415 @@
+[
+  {
+    "id": "f47ac10b-58cc-4372-a567-0e02b2c3d479",
+    "title": "Sushi and More",
+    "description": "Japanese Restaurant",
+    "content": "Sushi & More is founded by the family friends who cherish friendship and joy that are nourished by the meal we shared.",
+    "address": {
+      "street": "1245 Park St",
+      "city": "Alameda",
+      "state": "CA",
+      "zip": "94501"
+    },
+    "phone_number": "(510) 263-8171",
+    "thumbnail": "/sushi-and-more.avif",
+    "hours": "Mon-Sat: 11:30AM-9:30PM, Sun: 12:00PM-9:00PM"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440000",
+    "title": "Sumo Sushi",
+    "description": "Japanese Restaurant",
+    "content": "Sumo Sushi Restaurant is a cornerstone in the Albany community and has been recognized for its outstanding Sushi cuisine",
+    "address": {
+      "street": "977 San Pablo Ave",
+      "city": "Albany",
+      "state": "CA",
+      "zip": "94706",
+      "google_map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6297.669284301165!2d-122.30041112357702!3d37.88754960565488!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80857932f3b4ac9f%3A0xb617184f523f4474!2sSumo%20Japanese%20Restaurant!5e0!3m2!1sen!2sus!4v1724533991366!5m2!1sen!2sus"
+    },
+    "phone_number": "(510) 524-4700",
+    "thumbnail": "/sumo-sushi.jpg",
+    "hours": "Mon-Thu: 11:30AM-2:30PM, 5:00PM-9:30PM; Fri-Sat: 11:30AM-2:30PM, 5:00PM-10:00PM; Sun: 5:00PM-9:30PM"
+  },
+  {
+    "id": "6ba7b810-9dad-11d1-80b4-00c04fd430c8",
+    "title": "Bid Mon Cargo",
+    "description": "Shipping",
+    "content": "Ажлын өдрүүдэд 09:00-17:00, Бямба гарагт 11:00-14:00, Ням гарагт амарна. 510-562-2372",
+    "address": {
+      "street": "3128 16th St",
+      "city": "San Francisco",
+      "state": "CA",
+      "zip": "94103"
+    },
+    "phone_number": "(415) 932-6525",
+    "thumbnail": "/bid-mon-cargo.jpg",
+    "hours": "Mon-Fri: 09:00AM-5:00PM, Sat: 11:00AM-2:00PM, Sun: Closed"
+  },
+  {
+    "id": "6ba7b811-9dad-11d1-80b4-00c04fd430c8",
+    "title": "Delgermaa Adams - Life Insurance Agent",
+    "description": "Shipping",
+    "content": "Many people don't know that they can get life insurance for their children",
+    "address": {
+      "street": "475 North Martingale Road, Suite 1250",
+      "city": "Schaumburg",
+      "state": "IL",
+      "zip": "60173"
+    },
+    "phone_number": "(847) 897-8247",
+    "thumbnail": "/NY-life-insurance.png",
+    "hours": "Mon-Fri: 9:00AM-5:00PM, Sat-Sun: By appointment"
+  },
+  {
+    "id": "6ba7b812-9dad-11d1-80b4-00c04fd430c8",
+    "title": "Uyanga Baatarjav - Financial Professional",
+    "description": "Financial Advisor",
+    "content": "Tax free retirement accounts, Roth IRA, 401k, 403b, 457b, 529, 5308, SEP IRA, SIMPLE IRA, and more",
+    "phone_number": "(925) 812-6814",
+    "thumbnail": "/uyanga-baatarjav.jpg",
+    "hours": "Mon-Fri: 9:00AM-6:00PM, Sat-Sun: By appointment"
+  },
+  {
+    "id": "6ba7b813-9dad-11d1-80b4-00c04fd430c8",
+    "title": "Oyunaa Khuukhee - Chef",
+    "description": "Mongolian Restaurant",
+    "content": "Tom khuushuur: $3.5, Tom khulduusun buuz(40): $30.00, Tom khulduusun bansh(50): $25.00, Tom buuz jignej ugnu(10): $12.00",
+    "phone_number": "(415) 613-0816",
+    "thumbnail": "/oyunaa-khuukhee.jpg",
+    "hours": "Tue-Sun: 11:00AM-9:00PM, Mon: Closed"
+  },
+  {
+    "id": "6ba7b814-9dad-11d1-80b4-00c04fd430c8",
+    "title": "Atelier Crenn",
+    "description": "Fine Dining Restaurant",
+    "content": "Three-Michelin-starred restaurant offering innovative French cuisine",
+    "address": {
+      "street": "3127 Fillmore St",
+      "city": "San Francisco",
+      "state": "CA",
+      "zip": "94123"
+    },
+    "phone_number": "(415) 440-0460",
+    "thumbnail": "/atelier-crenn.jpg",
+    "hours": "Tue-Sat: 5:00PM-9:30PM, Sun-Mon: Closed"
+  },
+  {
+    "id": "6ba7b815-9dad-11d1-80b4-00c04fd430c8",
+    "title": "Gloss & Glam Nail Spa",
+    "description": "Nail Salon",
+    "content": "Luxury nail care services with a focus on organic products",
+    "address": {
+      "street": "1801 Fillmore St",
+      "city": "San Francisco",
+      "state": "CA",
+      "zip": "94115"
+    },
+    "phone_number": "(415) 441-1113",
+    "thumbnail": "/gloss-n-glam.jpg",
+    "hours": "Mon-Sat: 10:00AM-7:00PM, Sun: 11:00AM-6:00PM"
+  },
+  {
+    "id": "6ba7b816-9dad-11d1-80b4-00c04fd430c8",
+    "title": "State Farm - Michael Gonzalez",
+    "description": "Insurance Agent",
+    "content": "Comprehensive insurance solutions for auto, home, and life",
+    "address": {
+      "street": "2261 Market St",
+      "city": "San Francisco",
+      "state": "CA",
+      "zip": "94114"
+    },
+    "phone_number": "(415) 565-2622",
+    "thumbnail": "/state-farm.jpg",
+    "hours": "Mon-Fri: 9:00AM-5:00PM, Sat-Sun: Closed"
+  },
+  {
+    "id": "6ba7b817-9dad-11d1-80b4-00c04fd430c8",
+    "title": "Compass - Nina Hatvany Team",
+    "description": "Real Estate Agent",
+    "content": "Top-producing luxury real estate team in San Francisco",
+    "address": {
+      "street": "891 Beach St",
+      "city": "San Francisco",
+      "state": "CA",
+      "zip": "94109"
+    },
+    "phone_number": "(415) 710-6462",
+    "thumbnail": "/real-estate-agent.jpg",
+    "hours": "Mon-Fri: 9:00AM-6:00PM, Sat-Sun: By appointment"
+  },
+  {
+    "id": "6ba7b818-9dad-11d1-80b4-00c04fd430c8",
+    "title": "BMW of San Francisco",
+    "description": "Car Dealership",
+    "content": "Premier BMW dealership offering new and pre-owned vehicles",
+    "address": {
+      "street": "1675 Howard St",
+      "city": "San Francisco",
+      "state": "CA",
+      "zip": "94103"
+    },
+    "phone_number": "(415) 863-9000",
+    "thumbnail": "/bmw.jpeg",
+    "hours": "Mon-Sat: 9:00AM-7:00PM, Sun: 10:00AM-6:00PM"
+  },
+  {
+    "id": "6ba7b819-9dad-11d1-80b4-00c04fd430c8",
+    "title": "Zuni Café",
+    "description": "American Restaurant",
+    "content": "Iconic San Francisco restaurant known for its roasted chicken",
+    "address": {
+      "street": "1658 Market St",
+      "city": "San Francisco",
+      "state": "CA",
+      "zip": "94102"
+    },
+    "phone_number": "(415) 552-2522",
+    "thumbnail": "/zuni.jpg",
+    "hours": "Tue-Sat: 11:30AM-11:00PM, Sun: 11:00AM-11:00PM, Mon: Closed"
+  },
+  {
+    "id": "6ba7b81a-9dad-11d1-80b4-00c04fd430c8",
+    "title": "Golden Gate Park",
+    "description": "Public Park",
+    "content": "Large urban park with museums, lakes, and gardens",
+    "address": {
+      "street": "501 Stanyan St",
+      "city": "San Francisco",
+      "state": "CA",
+      "zip": "94117"
+    },
+    "phone_number": "(415) 831-2700",
+    "thumbnail": "/golden-gate.jpg",
+    "hours": "Daily: 5:00AM-12:00AM"
+  },
+  {
+    "id": "6ba7b81b-9dad-11d1-80b4-00c04fd430c8",
+    "title": "San Francisco Museum of Modern Art",
+    "description": "Art Museum",
+    "content": "Modern and contemporary art museum with a diverse collection",
+    "address": {
+      "street": "151 3rd St",
+      "city": "San Francisco",
+      "state": "CA",
+      "zip": "94103"
+    },
+    "phone_number": "(415) 357-4000",
+    "thumbnail": "/sfmoma.jpg",
+    "hours": "Fri-Tue: 10:00AM-5:00PM, Thu: 1:00PM-8:00PM, Wed: Closed"
+  },
+  {
+    "id": "6ba7b81c-9dad-11d1-80b4-00c04fd430c8",
+    "title": "Ghirardelli Square",
+    "description": "Shopping Center",
+    "content": "Historic chocolate factory turned into a retail and dining complex",
+    "address": {
+      "street": "900 North Point St",
+      "city": "San Francisco",
+      "state": "CA",
+      "zip": "94109"
+    },
+    "phone_number": "(415) 775-5500",
+    "hours": "Sun-Thu: 11:00AM-9:00PM, Fri-Sat: 11:00AM-10:00PM"
+  },
+  {
+    "id": "6ba7b81d-9dad-11d1-80b4-00c04fd430c8",
+    "title": "The Buena Vista",
+    "description": "Cafe",
+    "content": "Historic cafe famous for introducing Irish Coffee to America",
+    "address": {
+      "street": "2765 Hyde St",
+      "city": "San Francisco",
+      "state": "CA",
+      "zip": "94109"
+    },
+    "phone_number": "(415) 474-5044",
+    "hours": "Daily: 9:00AM-2:00AM"
+  },
+  {
+    "id": "6ba7b81e-9dad-11d1-80b4-00c04fd430c8",
+    "title": "City Lights Booksellers",
+    "description": "Bookstore",
+    "content": "Iconic independent bookstore and publisher founded in 1953",
+    "address": {
+      "street": "261 Columbus Ave",
+      "city": "San Francisco",
+      "state": "CA",
+      "zip": "94133"
+    },
+    "phone_number": "(415) 362-8193",
+    "hours": "Daily: 10:00AM-12:00AM"
+  },
+  {
+    "id": "6ba7b81f-9dad-11d1-80b4-00c04fd430c8",
+    "title": "Bi-Rite Creamery",
+    "description": "Ice Cream Shop",
+    "content": "Artisanal ice cream shop known for unique flavors",
+    "address": {
+      "street": "3692 18th St",
+      "city": "San Francisco",
+      "state": "CA",
+      "zip": "94110"
+    },
+    "phone_number": "(415) 626-5600",
+    "hours": "Mon-Thu: 1:00PM-9:00PM, Fri: 1:00PM-10:00PM, Sat-Sun: 11:00AM-10:00PM"
+  },
+  {
+    "id": "6ba7b820-9dad-11d1-80b4-00c04fd430c8",
+    "title": "Alcatraz Cruises",
+    "description": "Tour Agency",
+    "content": "Official concessioner for tours to Alcatraz Island",
+    "address": {
+      "street": "Pier 33, Alcatraz Landing",
+      "city": "San Francisco",
+      "state": "CA",
+      "zip": "94111"
+    },
+    "phone_number": "(415) 981-7625",
+    "hours": "Daily: 8:30AM-6:30PM (hours may vary seasonally)"
+  },
+  {
+    "id": "6ba7b821-9dad-11d1-80b4-00c04fd430c8",
+    "title": "The Exploratorium",
+    "description": "Science Museum",
+    "content": "Interactive science museum with hundreds of hands-on exhibits",
+    "address": {
+      "street": "Pier 15 The Embarcadero",
+      "city": "San Francisco",
+      "state": "CA",
+      "zip": "94111"
+    },
+    "phone_number": "(415) 528-4444",
+    "hours": "Tue-Sat: 10:00AM-5:00PM, Thu: 6:00PM-10:00PM (18+), Sun: 10:00AM-5:00PM, Mon: Closed"
+  },
+  {
+    "id": "6ba7b822-9dad-11d1-80b4-00c04fd430c8",
+    "title": "Tartine Bakery",
+    "description": "Bakery",
+    "content": "Renowned bakery known for artisanal bread and pastries",
+    "address": {
+      "street": "600 Guerrero St",
+      "city": "San Francisco",
+      "state": "CA",
+      "zip": "94110"
+    },
+    "phone_number": "(415) 487-2600"
+  },
+  {
+    "id": "6ba7b823-9dad-11d1-80b4-00c04fd430c8",
+    "title": "The Castro Theatre",
+    "description": "Movie Theater",
+    "content": "Historic movie palace known for film festivals and sing-alongs",
+    "address": {
+      "street": "429 Castro St",
+      "city": "San Francisco",
+      "state": "CA",
+      "zip": "94114"
+    },
+    "phone_number": "(415) 621-6120"
+  },
+  {
+    "id": "6ba7b824-9dad-11d1-80b4-00c04fd430c8",
+    "title": "Anchor Brewing Company",
+    "description": "Brewery",
+    "content": "America's first craft brewery, offering tours and tastings",
+    "address": {
+      "street": "1705 Mariposa St",
+      "city": "San Francisco",
+      "state": "CA",
+      "zip": "94107"
+    },
+    "phone_number": "(415) 863-8350"
+  },
+  {
+    "id": "6ba7b825-9dad-11d1-80b4-00c04fd430c8",
+    "title": "House of Prime Rib",
+    "description": "Steakhouse",
+    "content": "Classic San Francisco restaurant specializing in prime rib",
+    "address": {
+      "street": "1906 Van Ness Ave",
+      "city": "San Francisco",
+      "state": "CA",
+      "zip": "94109"
+    },
+    "phone_number": "(415) 885-4605"
+  },
+  {
+    "id": "6ba7b826-9dad-11d1-80b4-00c04fd430c8",
+    "title": "California Academy of Sciences",
+    "description": "Science Museum",
+    "content": "Natural history museum, planetarium, and aquarium in one",
+    "address": {
+      "street": "55 Music Concourse Dr",
+      "city": "San Francisco",
+      "state": "CA",
+      "zip": "94118"
+    },
+    "phone_number": "(415) 379-8000"
+  },
+  {
+    "id": "6ba7b827-9dad-11d1-80b4-00c04fd430c8",
+    "title": "Lands End",
+    "description": "Park",
+    "content": "Coastal trail with stunning views of the Golden Gate Bridge",
+    "address": {
+      "street": "680 Point Lobos Ave",
+      "city": "San Francisco",
+      "state": "CA",
+      "zip": "94121"
+    },
+    "phone_number": "(415) 561-4700"
+  },
+  {
+    "id": "6ba7b828-9dad-11d1-80b4-00c04fd430c8",
+    "title": "Sausalito Bicycle Rentals",
+    "description": "Bike Rental",
+    "content": "Bicycle rentals for exploring Sausalito and the Golden Gate Bridge",
+    "address": {
+      "street": "34 Princess St",
+      "city": "Sausalito",
+      "state": "CA",
+      "zip": "94965"
+    },
+    "phone_number": "(415) 332-8815"
+  },
+  {
+    "id": "6ba7b829-9dad-11d1-80b4-00c04fd430c8",
+    "title": "Muir Woods National Monument",
+    "description": "National Park",
+    "content": "Ancient coastal redwood forest just north of San Francisco",
+    "address": {
+      "street": "1 Muir Woods Rd",
+      "city": "Mill Valley",
+      "state": "CA",
+      "zip": "94941"
+    },
+    "phone_number": "(415) 561-2850"
+  },
+  {
+    "id": "6ba7b82a-9dad-11d1-80b4-00c04fd430c8",
+    "title": "The Palace of Fine Arts",
+    "description": "Event Venue",
+    "content": "Monumental structure originally constructed for the 1915 Panama-Pacific International Exposition",
+    "address": {
+      "street": "3601 Lyon St",
+      "city": "San Francisco",
+      "state": "CA",
+      "zip": "94123"
+    },
+    "phone_number": "(415) 563-6504"
+  },
+  {
+    "id": "6ba7b82b-9dad-11d1-80b4-00c04fd430c8",
+    "title": "Fisherman's Wharf",
+    "description": "Neighborhood",
+    "content": "Waterfront neighborhood known for seafood restaurants and tourist attractions",
+    "address": {
+      "street": "Pier 39",
+      "city": "San Francisco",
+      "state": "CA",
+      "zip": "94133"
+    },
+    "phone_number": "(415) 981-7437"
+  }
+]
