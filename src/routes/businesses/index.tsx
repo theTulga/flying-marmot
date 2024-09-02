@@ -11,10 +11,11 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { Skeleton } from "@/components/ui/skeleton";
-import SearchBar from "../../components/SearchBar";
 import { supabase } from "../../supabaseClient";
+import { Button } from "@/components/ui/button";
 
 interface BusinessCardProps {
+  id: string;
   name: string;
   category: string;
   about: string;
@@ -29,16 +30,14 @@ interface BusinessCardProps {
 }
 
 const BusinessCard: React.FC<BusinessCardProps> = ({
+  id,
   name,
   category,
-  about,
-  address,
-  phone_number,
   thumbnail,
 }) => {
   return (
     <Card className="flex flex-col h-full">
-      {thumbnail && (
+      <Link className="block group" to={`/businesses/${id}`}>
         <div className="relative w-full h-48">
           <img
             src={thumbnail}
@@ -46,23 +45,14 @@ const BusinessCard: React.FC<BusinessCardProps> = ({
             className="absolute inset-0 w-full h-full object-cover rounded-t-lg"
           />
         </div>
-      )}
-      <CardHeader>
-        <CardTitle>{name}</CardTitle>
-        <CardDescription>{category}</CardDescription>
+      </Link>
+      <CardHeader className="flex p-2">
+        <CardTitle className="text-md font-semibold">{name}</CardTitle>
       </CardHeader>
-      <CardContent className="flex-grow">
-        <p className="leading-7 [&:not(:first-child)]:mt-6">{about}</p>
+      <CardContent className="flex p-2 pt-0 flex-row justify-between">
+        <CardDescription>{category}</CardDescription>
+        <CardDescription>San Francisco</CardDescription>
       </CardContent>
-      <CardFooter className="flex flex-col items-start mt-auto">
-        {address && (
-          <>
-            <p className="text-sm text-muted-foreground">{address.street}</p>
-            <p className="text-sm text-muted-foreground">{`${address.city}, ${address.state}, ${address.zip}`}</p>
-          </>
-        )}
-        <p className="text-sm text-muted-foreground">{phone_number}</p>
-      </CardFooter>
     </Card>
   );
 };
@@ -80,23 +70,18 @@ const BusinessList = () => {
   });
 
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+    <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4">
       {Array.isArray(businessData) &&
         businessData.map((business) => (
-          <Link
-            key={business.id}
-            to={`/businesses/${business.id}`}
-            className="cursor-pointer"
-          >
-            <BusinessCard
-              name={business.name}
-              category={business.category}
-              about={business.about}
-              address={business.address}
-              phone_number={business.phone_number}
-              thumbnail={business.thumbnail}
-            />
-          </Link>
+          <BusinessCard
+            id={business.id}
+            name={business.name}
+            category={business.category}
+            about={business.about}
+            address={business.address}
+            phone_number={business.phone_number}
+            thumbnail={business.thumbnail}
+          />
         ))}
     </div>
   );
@@ -132,8 +117,9 @@ const Loading = () => {
 const Businesses = () => {
   return (
     <>
-      <div className="flex justify-center items-center pb-4">
-        <SearchBar />
+      <div className="flex justify-between items-center mb-4">
+        <h1 className="text-2xl font-bold">Businesses</h1>
+        <Button>Add Business</Button>
       </div>
       <Suspense fallback={<Loading />}>
         <BusinessList />

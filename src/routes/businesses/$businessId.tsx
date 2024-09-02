@@ -7,9 +7,6 @@ import { Skeleton } from "@/components/ui/skeleton";
 import { Card, CardHeader } from "@/components/ui/card";
 
 const fetchBusinessById = async (id: string) => {
-  // Add artificial delay of 20 seconds
-  await new Promise((resolve) => setTimeout(resolve, 20000));
-
   const { data, error } = await supabase
     .from("businesses")
     .select("*")
