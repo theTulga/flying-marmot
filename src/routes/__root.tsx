@@ -1,7 +1,13 @@
-import { createRootRoute, Outlet } from "@tanstack/react-router";
+import { createRootRouteWithContext, Outlet } from "@tanstack/react-router";
 import { TanStackRouterDevtools } from "@tanstack/router-devtools";
 import NavBar from "../components/NavBar";
-export const Route = createRootRoute({
+import { AuthContext } from "../auth";
+
+interface MyRouterContext {
+  auth: AuthContext;
+}
+
+export const Route = createRootRouteWithContext<MyRouterContext>()({
   component: () => (
     <div className="h-screen flex flex-col overflow-hidden">
       <NavBar />

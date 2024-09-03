@@ -13,6 +13,8 @@ import { createFileRoute } from '@tanstack/react-router'
 // Import Routes
 
 import { Route as rootRoute } from './routes/__root'
+import { Route as ProfileImport } from './routes/profile'
+import { Route as PostImport } from './routes/post'
 import { Route as AuthImport } from './routes/auth'
 import { Route as AboutImport } from './routes/about'
 import { Route as BusinessesIndexImport } from './routes/businesses/index'
@@ -24,6 +26,16 @@ import { Route as BusinessesBusinessIdImport } from './routes/businesses/$busine
 const IndexLazyImport = createFileRoute('/')()
 
 // Create/Update Routes
+
+const ProfileRoute = ProfileImport.update({
+  path: '/profile',
+  getParentRoute: () => rootRoute,
+} as any)
+
+const PostRoute = PostImport.update({
+  path: '/post',
+  getParentRoute: () => rootRoute,
+} as any)
 
 const AuthRoute = AuthImport.update({
   path: '/auth',
@@ -80,6 +92,20 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof AuthImport
       parentRoute: typeof rootRoute
     }
+    '/post': {
+      id: '/post'
+      path: '/post'
+      fullPath: '/post'
+      preLoaderRoute: typeof PostImport
+      parentRoute: typeof rootRoute
+    }
+    '/profile': {
+      id: '/profile'
+      path: '/profile'
+      fullPath: '/profile'
+      preLoaderRoute: typeof ProfileImport
+      parentRoute: typeof rootRoute
+    }
     '/businesses/$businessId': {
       id: '/businesses/$businessId'
       path: '/businesses/$businessId'
@@ -110,6 +136,8 @@ export const routeTree = rootRoute.addChildren({
   IndexLazyRoute,
   AboutRoute,
   AuthRoute,
+  PostRoute,
+  ProfileRoute,
   BusinessesBusinessIdRoute,
   BusinessesCreateRoute,
   BusinessesIndexRoute,
@@ -126,6 +154,8 @@ export const routeTree = rootRoute.addChildren({
         "/",
         "/about",
         "/auth",
+        "/post",
+        "/profile",
         "/businesses/$businessId",
         "/businesses/create",
         "/businesses/"
@@ -139,6 +169,12 @@ export const routeTree = rootRoute.addChildren({
     },
     "/auth": {
       "filePath": "auth.tsx"
+    },
+    "/post": {
+      "filePath": "post.tsx"
+    },
+    "/profile": {
+      "filePath": "profile.tsx"
     },
     "/businesses/$businessId": {
       "filePath": "businesses/$businessId.tsx"

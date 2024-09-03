@@ -1,5 +1,5 @@
 import { createLazyFileRoute } from "@tanstack/react-router";
-import AdBrowser from "components/AdBrowser";
+import { ListingsPage } from "@/components/listings-page";
 
 export const Route = createLazyFileRoute("/")({
   component: Index,
@@ -8,7 +8,7 @@ export const Route = createLazyFileRoute("/")({
 function Index() {
   return (
     <div className="p-2">
-      <AdBrowser />
+      <ListingsPage />
     </div>
   );
 }
